@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../ITD/ICR120/Li_Liu_Forms"
+		},
+		{
+			"path": "../../../../../../ITD/ICR130/1_JS_Review"
+		},
+		{
+			"path": "../../../../../../ITD/ICR130/2_JS_Array"
+		},
+		{
+			"path": "../../../../../../ITD/ICR130/3_JS_Array_Loops"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My_Service_Site"
+	}
+}

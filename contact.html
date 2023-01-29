@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">My Cosmetics Site</h1>
+        <h2 class="menu-button">X</h2>
+        <nav>
+          <ul>
+            <li><a href="./index.html" target="_top">Home &#127968</a></li>
+            <li><a href="./contact.html" target="_blank">Contact &#128221</a></li>
+            <li><a href="./about.html" target="_blank">About &#128220</a></li>
+            <li><a href="./pricing.html" target="_blank">Pricing &#128180</a></li>
+            <li><a href="tel:800-888-8888">Call Now! &#128222</a></li>
+            <li><a href="mailto:support@cleanbeauty.com">Send Email &#128231</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>    
+  </header>
+  <main>
+    <div class="contact-bg">
+    <div class="form-container">
+      <form class="contact-form" action="./thankyou.html">
+        <fieldset class="personal-info">
+          <legend>Personal information</legend>
+          <div class="row">
+            <div class="col">
+              <label for="firstname">First Name:</label>
+              <input type="text" name="fname" placeholder="John" />
+            </div>
+            <div class="col">
+              <label for="lastname">Last Name:</label>
+              <input type="text" name="lname" placeholder="Doe" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="age">Age:</label>
+              <input type="number" name="age" placeholder="20" min="0" max="120" />
+            </div>
+            <div class="col">
+              <label for="DTB">Date Of Birth:</label>
+              <input type="date" name="DOB" placeholder="2000-01-01" />
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <input type="radio" name="gender" />
+              <label for="gender">Female</label>
+            </div>
+            <div>
+              <input type="radio" name="gender" />
+              <label for="gender">Male</label>
+            </div>
+            <div>
+              <input type="radio" name="gender" />
+              <label for="gender">Prefer not to say</label>
+            </div>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col">
+                <label for="country">Choose Your Country:</label>
+                <select name="country">
+                  <option value="0">Canada</option>
+                  <option value="1">The U.S.A</option>
+                  <option value="2">France</option>
+                  <option value="3">The United Kingdom</option>
+                  <option value="4">Japan</option>
+                  <option value="5">China</option>
+                </select>
+              </div>
+              <div class="col">
+                <label for="province">Choose Your Province:</label>
+                <select name="province">
+                  <option value="0">BC</option>
+                  <option value="1">ON</option>
+                  <option value="2">QC</option>
+                  <option value="3">MB</option>
+                  <option value="4">SA</option>
+                  <option value="5">NS</option>
+                </select>
+              </div>
+              <div class="col">
+                <label for="city">Choose Your city:</label>
+                <select name="city">
+                  <option value="0">Vancover</option>
+                  <option value="1">Richmond</option>
+                  <option value="2">Burnaby</option>
+                  <option value="3">Surrey</option>
+                  <option value="4">Langley</option>
+                  <option value="5">Detal</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="newsletter">
+          <legend>Sign Up Our Newsletter:</legend>
+          <div class="row">
+            <div class="col">
+              <label for="email">Email:</label>
+              <input type="email" name="email" placeholder="email@gmail.com" />
+            </div>
+            <div class="col">
+              <label for="phone">Phone:</label>
+              <input type="text" name="phone" placeholder="888-888-8888" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div>
+                <input type="checkbox" name="sign_up_email">
+                <label for="sign_up_email">Sign me up for Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <input type="checkbox" name="sign_up_phone">
+                <label for="sign_up_phone">Sign me up for Phone Number</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="message">
+          <legend>Your Concerns</legend>
+          <div class="col">
+            <label for="subject">Subject:</label>
+            <select name="subject">
+              <option value="0">Product Questions</option>
+              <option value="1">Ingredient Questions</option>
+              <option value="2">Online Orders</option>
+              <option value="3">My Account</option>
+              <option value="4">Feedback</option>
+              <option value="5">Others</option>
+            </select>
+          </div>
+          <div class="col">
+            <label for="message">Your Messages:</label>
+            <textarea name="message">Tell Us More...</textarea>
+          </div>
+          <div class="col">
+            <label for="file">Upload Your Files:</label>
+            <input type="file" />
+          </div>
+        </fieldset>
+        <div class="row">
+          <input class="btn" type="submit" value="Submit Your Form" />
+          <input class="btn" type="reset" value="Reset To Default">
+        </div>
+      </form>
+    </div>
+  </div>
+  </main>
+  <footer>
+    <div class="footer">
+      <ul>
+        <h3>Shop</h3>
+        <li><a href="">New In</a></li>
+        <li><a href="">Sales</a></li>
+        <li><a href="">All Products</a></li>
+      </ul>
+      <ul>
+        <h3>Information</h3>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Shipping&Delivery</a></li>
+        <li><a href="">Return&Refund</a></li>
+      </ul>
+      <ul>
+        <h3>Account</h3>
+        <li><a href="">Sign Up</a></li>
+        <li><a href="">My Account</a></li>
+        <li><a href="">Q&A</a></li>
+      </ul>
+      <ul>
+        <h3>Follow Us</h3>
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Instagram</a></li>
+        <li><a href="">Youtube</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <h3>&copy;2023 Li liu. All Rights Reserved</h3>
+    </div>
+  </footer>
+</body>
+
+</html>
